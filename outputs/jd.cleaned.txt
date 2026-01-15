@@ -1,0 +1,13 @@
+Embedded Software Engineer
+
+Responsibilities:
+- Develop and debug embedded firmware in C/C++.
+- Implement and test drivers for peripherals (I2C, SPI, UART, GPIO, ADC).
+- Work with hardware teams to bring up boards and debug issues.
+- Use Git and CI/CD workflows to maintain code quality.
+
+Requirements:
+- Strong C programming and debugging skills.
+- Experience with microcontrollers and bare-metal firmware.
+- Familiarity with embedded Linux is a plus.
+- Understanding of networking fundamentals is a plus.

@@ -1,0 +1,38 @@
+{
+  "domains": [
+    "drivers",
+    "networking"
+  ],
+  "must_have": [
+    "ADC",
+    "C",
+    "CI/CD",
+    "Embedded",
+    "GPIO",
+    "Git",
+    "I2C",
+    "Linux",
+    "SPI",
+    "UART",
+    "embedded",
+    "firmware",
+    "networking"
+  ],
+  "nice_to_have": [],
+  "raw_keywords": [
+    "ADC",
+    "C",
+    "CI/CD",
+    "Embedded",
+    "GPIO",
+    "Git",
+    "I2C",
+    "Linux",
+    "SPI",
+    "UART",
+    "embedded",
+    "firmware",
+    "networking"
+  ],
+  "seniority_signals": []
+}
