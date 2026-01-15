@@ -1,0 +1,123 @@
+{
+  "jd_keywords": [
+    "adc",
+    "c",
+    "ci/cd",
+    "embedded",
+    "firmware",
+    "git",
+    "gpio",
+    "i2c",
+    "linux",
+    "networking",
+    "spi",
+    "uart"
+  ],
+  "notes": [
+    "Scoring: tech matches weighted higher than keyword matches found in truth text.",
+    "Keywords are normalized (lowercased) to avoid duplicates like Embedded vs embedded.",
+    "Next: Strategy output will feed Generation Node for bullet rewrites."
+  ],
+  "top_experience": [
+    {
+      "item_id": "hl_adc_board",
+      "item_type": "experience_highlight",
+      "matched_keywords": [
+        "adc",
+        "c",
+        "firmware",
+        "gpio",
+        "i2c",
+        "spi",
+        "uart"
+      ],
+      "matched_tech": [
+        "adc",
+        "c",
+        "gpio",
+        "i2c",
+        "spi",
+        "uart"
+      ],
+      "score": 13.0,
+      "source_path": "experience[exp_laxmiteja_2017_2022:Embedded Software Engineer].highlights[hl_adc_board:ADC-based sensor interface boards]",
+      "title": "ADC-based sensor interface boards"
+    },
+    {
+      "item_id": "hl_textile_controller",
+      "item_type": "experience_highlight",
+      "matched_keywords": [
+        "c",
+        "firmware",
+        "gpio"
+      ],
+      "matched_tech": [
+        "c",
+        "gpio"
+      ],
+      "score": 5.0,
+      "source_path": "experience[exp_laxmiteja_2017_2022:Embedded Software Engineer].highlights[hl_textile_controller:Textile printing controller card]",
+      "title": "Textile printing controller card"
+    },
+    {
+      "item_id": "hl_proximity_unit",
+      "item_type": "experience_highlight",
+      "matched_keywords": [
+        "c",
+        "firmware",
+        "gpio"
+      ],
+      "matched_tech": [
+        "c",
+        "gpio"
+      ],
+      "score": 5.0,
+      "source_path": "experience[exp_laxmiteja_2017_2022:Embedded Software Engineer].highlights[hl_proximity_unit:Proximity sensor control unit]",
+      "title": "Proximity sensor control unit"
+    }
+  ],
+  "top_projects": [
+    {
+      "item_id": "proj_arm_drivers",
+      "item_type": "project",
+      "matched_keywords": [
+        "c",
+        "gpio",
+        "i2c",
+        "spi",
+        "uart"
+      ],
+      "matched_tech": [
+        "gpio",
+        "i2c",
+        "spi",
+        "uart"
+      ],
+      "score": 9.0,
+      "source_path": "projects[proj_arm_drivers:ARM Cortex-M Driver Library (C11)]",
+      "title": "ARM Cortex-M Driver Library (C11)"
+    },
+    {
+      "item_id": "proj_ros_slam",
+      "item_type": "project",
+      "matched_keywords": [
+        "c"
+      ],
+      "matched_tech": [],
+      "score": 1.0,
+      "source_path": "projects[proj_ros_slam:ROS TurtleBot Rock Detection + SLAM]",
+      "title": "ROS TurtleBot Rock Detection + SLAM"
+    },
+    {
+      "item_id": "proj_unity_multiplayer",
+      "item_type": "project",
+      "matched_keywords": [
+        "c"
+      ],
+      "matched_tech": [],
+      "score": 1.0,
+      "source_path": "projects[proj_unity_multiplayer:Unity Multiplayer Game]",
+      "title": "Unity Multiplayer Game"
+    }
+  ]
+}
