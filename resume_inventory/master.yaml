@@ -1,0 +1,122 @@
+# Master Resume Inventory (Source of Truth)
+# Rule: The agent may only write claims that exist in this file.
+
+meta:
+  owner: "Cherish Teja Vijjagiri"
+  version: "0.1"
+  last_updated: "2026-01-15"
+  notes:
+    - "Keep metrics factual. If unknown, leave null and do not generate."
+
+profile:
+  headline: "Embedded / Firmware Engineer (Early Career)"
+  summary_points:
+    - "Embedded software engineer with microcontroller-based industrial automation experience."
+    - "Comfortable across bring-up, drivers, debugging, and documentation."
+    - "Masters in Computer Science; projects in robotics/vision and verification."
+
+skills:
+  languages: ["C (C11)", "C++ (basic)", "Python", "C# (Unity)", "SQL"]
+  embedded: ["Bare-metal", "Interrupts", "Timers", "GPIO", "ADC", "DAC", "UART", "I2C", "SPI"]
+  tooling: ["Git", "VS Code", "Keil uVision", "Logic analyzer (if applicable)", "Oscilloscope (if applicable)"]
+  platforms: ["8051-family (e.g., W79E2051)", "ARM Cortex-M (learning/project)"]
+  software: ["Linux basics", "CI/CD basics", "Unit testing (learning/project)"]
+  domains: ["Industrial automation", "Sensor interfacing", "Control panels"]
+
+experience:
+  - id: exp_laxmiteja_2017_2022
+    company: "Laxmiteja Controls & Instrumentation"
+    title: "Embedded Software Engineer"
+    location: "India"
+    start: "2017-01"
+    end: "2022-12"
+    highlights:
+      - id: hl_adc_board
+        title: "ADC-based sensor interface boards"
+        truth:
+          - "Developed firmware for ADC-based sensor acquisition on microcontroller boards."
+          - "Implemented peripheral drivers (e.g., ADC, GPIO, UART/I2C/SPI as applicable)."
+          - "Debugged hardware-software integration issues and supported field issues."
+        tech: ["C", "ADC", "GPIO", "UART", "I2C", "SPI"]
+        metrics:
+          cost_saved_usd: null
+          performance_improvement_pct: null
+        evidence_notes:
+          - "Add exact sensor types and sampling details if you have them."
+      - id: hl_textile_controller
+        title: "Textile printing controller card"
+        truth:
+          - "Built/maintained firmware for a microcontroller-based controller card used in industrial textile workflows."
+          - "Integrated I/O and control logic; supported testing and commissioning."
+        tech: ["C", "GPIO", "Timers", "Interrupts"]
+        metrics:
+          units_deployed: null
+        evidence_notes:
+          - "Add microcontroller model and key features (PWM? stepper? relays?)"
+      - id: hl_proximity_unit
+        title: "Proximity sensor control unit"
+        truth:
+          - "Developed control logic interfacing proximity sensors and outputs."
+          - "Validated signal behavior and refined firmware for reliability."
+        tech: ["C", "GPIO", "Interrupts"]
+        metrics:
+          defect_reduction_pct: null
+        evidence_notes:
+          - "Add sensor interface type (NPN/PNP? digital?) if you know it."
+    clients:
+      - "Emerson Electric (if applicable / confirm)"
+    constraints:
+      - "Do not claim RTOS if not used."
+      - "Do not claim embedded Linux unless actually used in this role."
+
+projects:
+  - id: proj_arm_drivers
+    name: "ARM Cortex-M Driver Library (C11)"
+    type: "personal"
+    truth:
+      - "Building reusable C11 drivers (I2C/UART/SPI/GPIO) with clean interfaces and examples."
+      - "Set up repository structure, documentation, and CI checks (as implemented)."
+    tech: ["C (C11)", "ARM Cortex-M", "I2C", "UART", "SPI", "GPIO", "GitHub Actions"]
+    links:
+      repo: null
+
+  - id: proj_ros_slam
+    name: "ROS TurtleBot Rock Detection + SLAM"
+    type: "academic"
+    truth:
+      - "Built a ROS-based pipeline using computer vision to detect rocks and navigate."
+      - "Used OpenCV/CNN components and ROS nodes to integrate perception and motion."
+    tech: ["ROS", "Python", "OpenCV", "SLAM"]
+    links:
+      repo: null
+
+  - id: proj_uppaal_irrigation
+    name: "UPPAAL Verification — Irrigation System Model"
+    type: "academic"
+    truth:
+      - "Modeled system behavior and verified safety/liveness properties using UPPAAL."
+    tech: ["UPPAAL", "Formal verification"]
+    links:
+      repo: null
+
+  - id: proj_unity_multiplayer
+    name: "Unity Multiplayer Game"
+    type: "academic/personal"
+    truth:
+      - "Built an interactive multiplayer experience with UI and gameplay logic."
+    tech: ["Unity", "C#"]
+    links:
+      repo: null
+
+rules:
+  no_hallucinations: true
+  metrics_policy:
+    - "If a metric is null/unknown, do not create one."
+    - "Prefer exact numbers; otherwise omit."
+  writing_style:
+    - "Impact-first bullets"
+    - "1–2 lines per bullet"
+    - "Action verb + technical scope + result (if truthful)"
+
+templates:
+  default: "templates/base.tex"
